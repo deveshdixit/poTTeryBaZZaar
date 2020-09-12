@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .fa-facebook {
+      color: #3B5998;
+      width: 50px;
+      border: 10rem;
+    }
+
+    .fa-twitter {
+      color: #55ACEE;
+      border: 10rem;
+    }
+
+
+    .fa-linkedin {
+      color: #007bb5;
+      border: 10rem;
+    }
+
+
+    .fa-instagram {
+      color: #3f729b;
+      border: 10rem;
+    }
+
+    .fa-pinterest {
+      color: #cb2027;
+      border: 10rem;
+    }
+
+    .me {
+      float: left;
+      margin-left: -10em;
+      margin-top: 1em;
+    }
+
+    .you {
+      float: right;
+      margin-top: 2em;
+      margin-right: -10em;
+    }
+
+    .i {
+      float: left;
+      margin-top: -1em;
+      margin-left: 4em;
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .u {
+      float: right;
+      margin-top: -1em;
+      margin-right: 6em;
+      font-size: 30px;
+      font-weight: 500;
+    }
+
+    .my {
+      background-color: black;
+      font-size: 70px;
+      font-weight: 500;
+    }
+
+    .new {
+      background-color: black;
+      font-size: 20px;
+    }
+
+
+    .de {
+      margin-left: 0em;
+      margin-top: 2em;
+    }
+
+    .img {
+      width: 500px;
+      height: 400px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    .game img {
+      width: 500px;
+      Height: 700px;
+    }
+
+    .play img {
+      width: 600px;
+      Height: 600px;
+    }
+
+    .navbar-brand {
+      font-size: 70px;
+      align-content: right;
+      font-weight: 600;
+      margin-left: 2.5em;
+    }
+
+    .navbar-dark {
+      background-color: black;
+      text-align: center;
+    }
+
+    .data {
+      float: right;
+    }
+
+    #bttn {
+      float: right;
+      margin-top: 2.5em;
+      margin-right: 10em;
+    }
+
+    #bt {
+      float: right;
+      margin-right: -10em;
+      margin-top: 2em;
+    }
+
+    .nav-link {
+      font-size: 20px;
+      font-weight: 200px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  </style>
+
+
+  <title>Pottery Bazzar</title>
+</head>
+
+<body>
+
+  <div>
+    <nav class=" navbar-dark">
+      <a class="navbar-brand" href="#">poTTeryBaZZaar</a>
+      <button type="button" class="btn data btn-primary" data-toggle="modal" aria-pressed="true"
+        data-target="#signupModal" id="bttn">
+        Sign up
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          id="bt" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link " href="homepage.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="all products.html">All Products</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="best selling.html">Best Selling</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="summer.html">Summer Friends</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="dining.html">Dining collection</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="special.html">poTTeryBaZZaar Specials</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="combo.html">Combo Offers</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="fridge.html">Refrigerators</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="cookwares.html">Cookwares</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="tea set.html">Tea-Set</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contact us.html">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="business.html">Business with us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="About us.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </nav>
+</body>
+</div>
+
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item" aria-current="page">Home</li>
+    <li class="breadcrumb-item" aria-current="page">All products</li>
+    <li class="breadcrumb-item" aria-current="page">Categories</li>
+    <li class="breadcrumb-item" aria-current="page">Business with us</li>
+    <li class="breadcrumb-item active"><a href="#">Contact us</a></li>
+    <li class="breadcrumb-item" aria-current="page">About us</li>
+  </ol>
+</nav>
+
+
+<form>
+  <div class="container">
+
+    <h1 class="display-3 font-weight-normal">Contact us</h1>
+    <br>
+    <br>
+
+    <h1>Address</h1>
+    <br>
+    <h4 class="font-weight-normal text-align=center">Kalpi Bridge Colony, Morar,</h4>
+    <h4 class="font-weight-normal text-align=center">Gwalior, Madhya Pradesh.</h4>
+    <h4 class="font-weight-normal text-align=center">Pincode - 474006</h4>
+    <h4 class="font-weight-normal text-align=center">CP Colony, Morar</h4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Mobile</h1>
+    <br>
+    
+      <h4 class="font-weight-normal text-align=center">Whats app - 
+        <a href="callto:6265894896">6265894896</a></h4>
+    
+        <h4 class="font-weight-normal text-align=center">Business - 
+          <a href="callto:9285475735">9285475735</a></h4>
+
+          <h4 class="font-weight-normal text-align=center">Orders - 
+            <a href="callto:8878240209">8878240209</a></h4>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Email</h1>
+    <br>
+    <a href="mailto:poTTeryBaZZaar129@gmail.com">
+      <h4 class="font-weight-normal text-align=center">poTTeryBaZZaar129@gmail.com</h4>
+    </a>
+    <a href="mailto:deveshdixit2107@gmail.com">
+      <h4 class="font-weight-normal text-align=center">deveshdixit2107@gmail.com</h4>
+    </a>
+    <a href="mailto:agarwaldeepanshu105@gmail.com">
+      <h4 class="font-weight-normal text-align=center">agarwaldeepanshu105@gmail.com</h4>
+    </a>
+    <br>
+    <br>
+    <br>
+
+    <h1>Follow us on social media</h1>
+    <!-- font awesome icons -- -->
+    <div class="container-fluid">
+      <div class=" de">
+        <a href="https://www.facebook.com/devesh.dixit.313" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/devesh_dixit21/" class="fa fa-instagram"></a>
+        <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <h1>Write to us</h1>
+    <br>
+    <h3 class="font-weight-normal text-align=center"> If you have any query feel free to get in touch with us.</h3>
+    <h3 class="font-weight-normal text-align=center"> We'll try our very best to resolve your issue as soon as possible.
+    </h3>
+    <br>
+    <h3 class="font-weight-normal text-align=center">Thank you!</h3>
+    <br>
+
+    <script type="text/javascript">var submitted=false;</script>
+    
+    <!--Update the URL for thank you page on form submit -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted) {window.location='http://zerobudget.club/solutions/thank-you.html';}"></iframe> 
+    
+    <!-- Update the Google forms URL in action-->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfH6NoQCXNgJLmgVMbGxHBANLULTi-odsklyKMc4dvNnAu5HQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+
+
+
+    <div class="container-fluid">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name(required)</label>
+          <input type="email" class="form-control" id="name" placeholder="Devesh Dixit" required name="">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email(required)</label>
+          <input type="email" class="form-control" id="email" placeholder="example123@gmail.com" required name="">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Address (optional)</label>
+          <input type="email" class="form-control" id="address" placeholder="CP Colony, Morar" required name="">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Phone (required)</label>
+          <input type="email" class="form-control" id="phone" placeholder="your contact no" required name="">
+        </div>
+        
+        <div class="form-group">
+          <label for="exampleFormControlInput1">City (Optional)</label>
+          <input type="email" class="form-control" id="city" placeholder="Gwalior" required name="">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Subject (required)</label>
+          <input type="email" class="form-control" id="subject" placeholder="Didn't get my order" required name="">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Comments (required)</label>
+          <input type="email" class="form-control" id="comments"
+            placeholder="Write your complete query" required name="">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label>Are you a member of poTTeryBaZZar?</label>
+          <br>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#submitModal">submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">login to poTTeryBaZZar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Your data is safe with us</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label>Save Password</label>
+              </div>
+              <button type="submit" class="btn btn-primary">login</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Sign up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Get an account on poTTeryBaZZaar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="ie. deveshdixit2107@gmail.com">
+
+                <label for="cexampleInputEmail1">First Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="ie. Devesh">
+
+                <label for="cexampleInputEmail1">Last Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="ie. Dixit">
+
+                <label for="cexampleInputEmail1">Contact</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder="Enter your contact no">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
+                <label for="exampleInputPassword1">Confirm Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
+              </div>
+              <button type="submit" class="btn btn-primary mx-auto">sign up</button>
+              <br>
+              <br>
+              <lable>Already a member?</lable>
+              <br>
+              <br>
+              <button type="button" class="btn btn-success" data-toggle="modal" aria-pressed="true"
+                data-target="#loginModal">
+                Login
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="submitModalLabel">Congrats, your query has been recorded</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          We'll be back with the solution asap
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="card text-center">
+      <div class="my card-header text-white text-center ">
+        poTTeryBaZZaar
+      </div>
+      <div class="new card-body text-white">
+        <h5 class=" i card-title">Visit us</h5>
+        <h5 class=" u card-title">Follow us</h5>
+        <div class="me card-body">
+          <h4><a href="About us.html">About us</a></h4>
+          <br>
+          <h4> <a href="contact us.html">Contact us</a></h4>
+          <br>
+          <h4><a href="business.html">Business with us</a></h4>
+          <br>
+          <h4><a href="special.html">poTTeryBaZZaar specials</a></h4>
+        </div>
+        <!-- font awesome icons -- -->
+        <div class=" you text-center">
+          <a href="https://www.facebook.com/devesh.dixit.313" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/home" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/devesh_dixit21/" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript">
+      function validateName() {
+              var name = document.getElementById('name').value;
+              if(name.length == 0) {
+                alert("Name can't be blank") ;
+                return false;
+  
+              }
+              if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+                alert("Please enter your correct name") ;//Validation Message
+                return false;
+              }
+              return true;
+            }
+
+            
+            function validatePhone() {
+              var phone = document.getElementById('phone').value;
+              if(phone.length == 0) {
+                alert("Phone number can't be blank") ;//Validation Message
+                return false;
+              }
+  
+              if(!phone.match(/^[0]?[789]\d{9}$/)) {
+               alert("Please enter a correct phone number") ;//Validation Message
+               return false;
+             }
+  
+             return true;
+  
+           }
+  
+           function validateEmail () {
+  
+            var email = document.getElementById('email').value;
+            if(email.length == 0) {
+              alert("Email can't be blank") ;//Validation Message
+              return false;
+  
+            }
+  
+            if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+              alert("Please enter a correct email address") ;//Validation Message
+              return false;
+  
+            }
+  
+            return true;
+  
+          }
+  
+  
+          function validateForm() {
+            if (!validateName() || !validatePhone() || !validateEmail()) {
+  
+              alert("Form not submitted");//Validation Message
+              return false;
+            }
+            else {
+              submitted=true;
+              return true;
+            }
+          }
+          </script>
+
+
+
+  </body>
+
+</html>
